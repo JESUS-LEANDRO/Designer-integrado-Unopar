@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #09e28f;
+    text-decoration: none;
+
+}
+#miolo {
+ text-align: center;
+}
+#conteudo{
+ display: inline-flex;
+}
+.cadastro , .suport{
+    margin-left: 35px;
+}
+
+.login-1{
+    background-color: rgb(51, 94, 76);
+    border-radius: 0px 0px 7px 7px;
+    padding: 5px;
+}
+section{
+    padding: 10px;
+}
+
+.submit-1{
+    margin-left: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(51, 94, 76);
+    border-radius: 7px 7px 0px 0px;
+
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(19, 19, 19);
+    margin-top:40px;
+    text-decoration: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+}
+p{
+  padding-bottom: 50px;
+}
+.sec-1{
+    background-color:red;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+button{
+    height: 45px;
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+a:hover {
+    color:rgb(253, 252, 252);
+    background-color: rgba(71, 221, 189, 0.418);
+    padding: 2px;
+    transition-duration: 0.1s;
+    height: 150px 0px;
+    margin-top:30px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+
+}
+button:hover{
+    color:rgb(247, 244, 244);
+    background-color: rgba(71, 221, 189, 0.418);
+    padding: 2px;
+    transition-duration: 0.1s;
+    height: 150px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:30px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+ img .pequena{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+img .grande{
+    max-width: 800px;
+    margin: auto;
+    display: inline;
+}
+footer{
+    margin-top: 2px;
+    background-color: red;
+    padding-top: 20px;
+    height: 10px;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.footer a{
+    padding-bottom: 100px;
+}
